@@ -1,2 +1,2 @@
 # aapo-audit
-Aapo as a case study fir audit ponderings
+Aapo as a case study for audit ponderings
