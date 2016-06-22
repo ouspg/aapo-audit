@@ -16,10 +16,18 @@ See (aapo-architecture.jpg)
 
 
 ## Technical Artefacts
-[Architecture](aapo-architecture.jpg)
+![Architecture](aapo-architecture.jpg)
 
+ * ORACLE - DB serving OODI
+ * [OODI](http://www.oulu.fi/oodi/)  - ''Oulun yliopiston yliopiston opetus- ja opiskelutoimintojen tukemiseen tarkoitettu tietojärjestelmä''
+ * A2 - Adaptor/Front for OODI & Oracle Web Security. Removes the need to expose OODI-ID.
+ * A1 - Public-facing front / API towards the Internet. Input normalisation.
+ * Web Aapo - old web interface
+ * T1 - Aapo 2.0 proxy for all universities
+ * Aapo App - Aapo 1.0 mobile apps (iOS and Android)
+ * Uusi mob Aapo - Aapo 2.0 mobile apps
 
-# Main items to protect
+# Main things to protect
  * Student information
  * User's terminals - do not lower the security of users endpoints. (E.g. we should not push software to students that endangers their equipment)
 
