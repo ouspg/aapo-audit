@@ -56,7 +56,7 @@ Aapo project team was represented by Laura Saukko, Kaarlo Määttä, Matti Suuro
 
 Diagrams were (re)drawn and [detailed notes](notes-katakri.md) were kept.
 
-![Aapo - technical discovery session](http://img.youtube.com/vi/RwTHZqhxExU/0.jpg)](http://www.youtube.com/watch?v=RwTHZqhxExU)
+[![Aapo - technical discovery session](http://img.youtube.com/vi/RwTHZqhxExU/0.jpg)](http://www.youtube.com/watch?v=RwTHZqhxExU)
 
 *Click the image above to watch a timelapse from the technical discovery session.*
 

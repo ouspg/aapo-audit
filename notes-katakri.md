@@ -1,11 +1,12 @@
-Quick notes from the interview by @turmio, @mseppanen and @janikenttala.
+Quick notes from the interview by @Turmi0, @mseppanen and @janikenttala.
 
 # Study Notes
 
-See (aapo-architecture.jpg)
-
 ## People & Orgs
 
+* [Synopsys](http://www.codenomicon.com/)
+ * Mikko Kenttälä (@Turmi0)
+ * Mika Seppänen (@mseppanen)
 * University of Oulu - backend & Aapo 1.0 frontend
  * Ari Vaulo,
  * Laura Saukko,
@@ -13,10 +14,15 @@ See (aapo-architecture.jpg)
  * Matti Suuronen, and
 * Futurice - Aapo 2.0 frontend development & old web aapo.
  * Hannu-Pekka Heinäjärvi
-
+* Visiting stars:
+ * G-BOA (Grand bearded OUSPG Alumni) Erno Kuusela of [Solita](http://www.solita.fi)
+ * Ari Kauppi (@kauppi) of Ericsson
+ * Jesse Hulkko (jhulkko) with [Kapsi](https://www.kapsi.fi) hat
+ * Jani Huhtala (zaux) with [Kapsi](https://www.kapsi.fi) hat
 
 ## Technical Artefacts
-![Architecture](aapo-architecture.jpg)
+
+![Architecture](aapo-architecture-kataktri.jpg)
 
  * ORACLE - DB serving OODI
  * [OODI](http://www.oulu.fi/oodi/)  - ''Oulun yliopiston yliopiston opetus- ja opiskelutoimintojen tukemiseen tarkoitettu tietojärjestelmä''
@@ -28,9 +34,9 @@ See (aapo-architecture.jpg)
  * Uusi mob Aapo - Aapo 2.0 mobile apps
 
 # Main things to protect
+
  * Student information
  * User's terminals - do not lower the security of users endpoints. (E.g. we should not push software to students that endangers their equipment)
-
 
 # Random notes.
 
@@ -82,8 +88,6 @@ No notes
 
 Initiated two times per day from CRON. Aapo fetches the data and normalizes it for consumption.
 
-
-
 # (Pseudo-Random) Notes from a KATAKRI-assisted interview session.
 
  * A1 & A2 use centralised logging -> ip+query+ts+”auth” triple. <- incorrect, this was not centralised after all. Logged to the server’s
@@ -102,8 +106,6 @@ Initiated two times per day from CRON. Aapo fetches the data and normalizes it f
     *  ATK-keskus monitors  FW and observe logs.
     * Developers do observe logs, they  easily told anecdotes about usage stats etc
 
-
-
 Onko huolehdittu, että organisaatiolla on toimintaansa nähden riittävät jatkuvuuden varmistavat suunnitelmat? Testataanko toipumisvalmiutta säännöllisesti? Turvataanko suojattavat tiedot myös hätätilanteissa?
 
  * Tieto on keskittynyt yhdelle henkilölle
@@ -120,17 +122,30 @@ Onko riittävästä varmuuskopioinnista huolehdittu?
 
  * Kyllä
 
-
 ## Upsides:
  A1 + A2 development and policy management is closeby (same person), less mistakes with firewall rules
-
 
 ## Immediate recommendations:
  * Separate log server highly recommended to ensure integrity of logs
  * Tarkasta käytössä olevat salaukset
  * Rekisteriselosteen linkki viittaa HTTP-puolelle joka ei toimi
 
-
 # Tietoturvasuunnitteluperiaatteet
 
-Ari toimittaa
+Good ones already applies - Ari promised to commit those here as well
+
+# Some reflections from Marko
+
+ * Pair audits (like pair programming)
+ * Sibboleth auth parannus (kuka on juuri kirjautumassa), käyttäjän lukitseminen)
+ * Koulutuspalvelut Katja Pura
+ * Vastuu siitä että opiskelijan tiedot/oikeusturva tai tietojen käsittelyn turvallisuus ei vaarannu
+ * Kolmessa tunnissa Kataktri käytävissä läpi
+  * Hyökkääjän näkökulma?
+  * Mistä tietotulee ja mihin menee?
+  * Mikä on todellinen suojattava asia (beyond tech artifacts)?
+  * Zaux: Katakri yrittää puuttua kokonaisuuteen vs. käytännössä rajatussa tapaukessa tulee paljon annettuna
+  * Jesse: Kataktri 3:ssa hyvä runko -> siitä rakentaa kysymykset softaprojektille
+   * Auditoijan asiantuntemus auttaa mäppäämään
+  * Checklist softan auditointiprojektille itselleen
+ * ...
