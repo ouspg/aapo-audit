@@ -16,7 +16,7 @@ Aapo is used as an subject for open & educative security audit.
 
 # 2016-06-14 - Kick-off
 
-Jani Kenttälä (@janike) and Marko Laakso (@ikisusi) had a initial kick off
+Jani Kenttälä (@evilon) and Marko Laakso (@ikisusi) had a initial kick off
 meeting with the current [Aapo](http://www.oulu.fi/yliopisto/node/37547)
 project team about an educational security audit. We plan to take two
 hackathon type sessions during the summer on auditing Aapo in open and
