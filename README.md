@@ -60,6 +60,6 @@ Diagrams were (re)drawn and [detailed notes](notes-katakri.md) were kept.
 
 *Click the image above to watch a timelapse from the technical discovery session.*
 
-# 2016-08-09 - Hands-on
+# 2016-08-?? - Hands-on
 
 [Coming up in OUSPG open](https://github.com/ouspg/ouspg-open)
