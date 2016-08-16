@@ -77,8 +77,8 @@ Quick notes from the interview by @Turmi0, @mseppanen and @janikenttala.
  * Shibboleth Checks the U&P against the same RADIUS
  * After success, shibboleth stops blocking the URL-space
  * (Shibboleth consumes the u&p in front of the app, the app should not get it. )
- * Shibboleth stores <eppn> + pseudo random number -> which is
-provided to Web Aapo
+ * (Shibboleth then enters a session to the A2 local mysql db (feature compatibility with radius auth))
+ * Shibboleth stores <eppn> + pseudo random number -> which is provided to Web Aapo
 
 ## Signup for course
 
