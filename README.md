@@ -82,3 +82,20 @@ Some random remarks:
  * Firewalling external accesses from A1/A2 would diminish post-exploitation possibilities (reverse shells etc).
  * In modern system building actions such as fetching external inputs and doing notifications are often compartmentalized to containers etc.
  * After the introduction of Tuudo, the old applications as well as their API:s should be deprecated and eventually removed.
+
+# Summary
+
+We carried out a collaborative and open mini audit of the Aapo system.
+Audit took place in three places. First phase concentrated on the
+scoping of the audit. Second phase was about the design and backend services.
+Third phase added in some hands on verification of the achieved common
+understanding. During the whole process Katakri was used as a frame of
+reference.
+
+Together with the audit experts and the builders of the Aapo we walked
+through Aapo's security goals, design principles and some implementation details.
+This added to the depth of the understanding and managing the security of the Aapo
+system. We this will help in further development and operations of the Aapo
+services.
+
+
