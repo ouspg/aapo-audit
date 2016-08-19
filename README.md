@@ -95,7 +95,7 @@ reference.
 Together with the audit experts and the builders of the Aapo we walked
 through Aapo's security goals, design principles and some implementation details.
 This added to the depth of the understanding and managing the security of the Aapo
-system. We this will help in further development and operations of the Aapo
+system. This will help in further development and operations of the Aapo
 services.
 
 
