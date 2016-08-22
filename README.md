@@ -18,7 +18,7 @@ Aapo was used as an subject for open & educative security audit.
 ## Summary
 
 This was a collaborative, open and time limited audit of the Aapo system.
- Audit took place in three phases (3 days). First phase concentrated on the
+Audit took place in three phases (3 days). First phase concentrated on the
 scoping of the audit. Second phase was about the design and backend services.
 Third phase added in some hands on verification of the achieved common
 understanding. During the whole process Katakri was used as a frame of
