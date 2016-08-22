@@ -1,6 +1,27 @@
 # Aapo-audit
 
-Aapo as a case study for audit ponderings
+[Aapo](http://www.oulu.fi/yliopisto/node/37547) as a case study for
+ audit ponderings.
+
+ As part of the OUSPG Open, we took one scoping
+ session and two hackathon type sessions during the summer on
+ auditing Aapo in open and educational fashion with help from invited external experts.
+
+ [![Aapo Architecture Picture](aapo-architecture-kataktri.jpg)](https://youtu.be/RwTHZqhxExU)
+
+ **Picture:** *Aapo architecture based on the discovery session.
+ Click image for timelapse from the discovery session*
+
+## Notes from the Sessions
+
+The following notes are from project team about an educational
+security audit.
+
+* [Scoping Session](session-1.md)
+* [Technical Discovery Session](session-2.md)
+* [Hands-on Session](session-3.md)
+
+Below are some extracts from the process.
 
 ## Background
 
@@ -14,22 +35,6 @@ the [Google Summer of Code](https://developers.google.com/open-source/gsoc/),
 provides summer activities for people interested in Information Security.
 
 Aapo was used as an subject for open & educative security audit.
-
-## Summary
-
-This was a collaborative, open and time limited audit of the Aapo system.
-Audit took place in three phases (3 days). First phase concentrated on the
-scoping of the audit. Second phase was about the design and backend services.
-Third phase added in some hands on verification of the achieved common
-understanding. During the whole process Katakri was used as a frame of
-reference.
-
-Together with the audit experts and the builders of the Aapo we walked
-through Aapo's security goals, design principles and some implementation details.
-This added to the depth of the understanding and managing the security of the
-Aapo system. This will help in further development and operations of the Aapo
-services.
-
 ## Assets
 
 During the discussions, three assets were discovered for protecting:
@@ -63,11 +68,17 @@ assets, as it would muddy the responsibilities.
 * Backline-server (A2) HTTPS-service listens only connections from frontline
   server (A1).
 
-For the A1 and A2 explanations, please see
-[Aapo Architecture Picture](aapo-architecture-kataktri.jpg)
+## Summary
 
-## Notes from the sessions
+This was a collaborative, open and time limited audit of the Aapo system.
+Audit took place in three phases (3 days). First phase concentrated on the
+scoping of the audit. Second phase was about the design and backend services.
+Third phase added in some hands on verification of the achieved common
+understanding. During the whole process Katakri was used as a frame of
+reference.
 
-* [First Session](session-1.md)
-* [Second Session](session-2.md)
-* [Third Session](session-3.md)
+Together with the audit experts and the builders of the Aapo we walked
+through Aapo's security goals, design principles and some implementation details.
+This added to the depth of the understanding and managing the security of the
+Aapo system. This will help in further development and operations of the Aapo
+services.
